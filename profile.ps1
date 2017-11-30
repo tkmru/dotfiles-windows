@@ -1,6 +1,7 @@
 Set-Alias g git
 Set-Alias cl clear
 Set-Alias l ls
+${function:bh}= { bash --login }
 ${function:l} = { ls -Force @args }
 ${function:up} = { Set-Location .. }
 
